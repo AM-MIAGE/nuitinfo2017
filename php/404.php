@@ -13,7 +13,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Nom application</a>
+      <a class="navbar-brand" href="#">J'ai trop le SAM !</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -34,20 +34,6 @@
 include './php/footer.html';
 ?>
 
-<!-- Pied de page -->
-<footer>
-	<div class="row">
-		<div class="col-md-4">
-			Telephone
-		</div>
-		<div class="col-md-4">
-			Police
-		</div>
-		<div class="col-md-4">
-			Mail
-		</div>
-	</div>
-</footer>
 
 </body>
 </html>	
