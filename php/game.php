@@ -10,23 +10,6 @@
 </head>
 
 
-<!-- Menu -->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">J'ai trop le SAM !</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul id="aide" class="nav navbar-nav navbar-right">
-      	<li><img id="bulle-aide" src="../image/mascotte/bulleAide.png"></li>
-        <li><img id="img-avatar" src="../image/mascotte/avatar.gif"></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
 
 <body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -101,6 +84,21 @@ function launchParty() {
 
 </script>
 
+<!-- Menu -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">J'ai trop le SAM !</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="aide" class="nav navbar-nav navbar-right">
+      	<li><img id="bulle-aide" src="../image/mascotte/bulleAide.png"></li>
+        <li><img id="img-avatar" src="../image/mascotte/avatar.gif"></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 	<h1>To drink or not to drink ?</h1>
 
