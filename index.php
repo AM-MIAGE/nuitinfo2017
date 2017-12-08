@@ -48,10 +48,6 @@
 	</div>
 </section>
 
-<?php
-include './php/footer.html';
-?>
-
 <!-- Pied de page -->
 <footer>
 	<div class="row">
@@ -66,6 +62,11 @@ include './php/footer.html';
 		</div>
 	</div>
 </footer>
+
+<div id="aide-apparition">
+	<img id="bulle-apparition" src="image/mascotte/bulleMenu.png">
+	<img id="anim-apparition" src="image/mascotte/talk.gif">
+</div>
 
 </body>
 </html>	

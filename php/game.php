@@ -125,6 +125,26 @@ function launchParty() {
 	</article>
 
 	<div id="wheel" style="width: 300; height: 300;"></div>
+
+	<!-- Pied de page -->
+<footer>
+	<div class="row">
+		<div class="col-md-4">
+			Telephone
+		</div>
+		<div class="col-md-4">
+			<a href="../php/aboutUs.php">A propos du site</a>
+		</div>
+		<div class="col-md-4">
+			Mail
+		</div>
+	</div>
+</footer>
+
+<div id="aide-apparition">
+	<img id="bulle-apparition" src="../image/mascotte/bulleGame.png">
+	<img id="anim-apparition" src="../image/mascotte/dance.gif">
+</div>
 </body>
 
 
