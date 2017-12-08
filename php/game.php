@@ -6,14 +6,14 @@
 	<title>J'ai trop le SAM !</title>
 	<link href="../css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="../css/style.css" rel="stylesheet" media="screen">
+	<script src="../jQuery/jquery-1.10.2.js"></script>
+    <script src="../jQuery/jquery-ui-1.11.4.js"></script>
 	<script type="text/javascript" src="../js/script.js"></script>
 </head>
 
 
 
 <body>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="../wheelnav.js-1.7.1/wheelnav.js"></script>
 <script type="text/javascript" src="../wheelnav.js-1.7.1/raphael.min.js"></script>
 <script type="text/javascript" src="../wheelnav.js-1.7.1/raphael.icons.min.js"> </script>
