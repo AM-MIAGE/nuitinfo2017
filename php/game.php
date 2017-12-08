@@ -6,6 +6,7 @@
 	<title>J'ai trop le SAM !</title>
 	<link href="../css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="../css/style.css" rel="stylesheet" media="screen">
+	<script type="text/javascript" src="../js/script.js"></script>
 </head>
 
 
