@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Nom application</title>
+	<title>J'ai trop le SAM</title>
 	<link href="../css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="../css/style.css" rel="stylesheet" media="screen">
 </head>
@@ -17,8 +17,9 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="./php/signUp.php">Tete Avatar</a></li>
+      <ul id="aide" class="nav navbar-nav navbar-right">
+      	<li><img id="bulle-aide" src="../image/mascotte/bulleAide.png"></li>
+        <li><img id="img-avatar" src="../image/mascotte/avatar.gif"></li>
       </ul>
     </div>
   </div>
