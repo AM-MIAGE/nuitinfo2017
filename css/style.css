@@ -5,3 +5,21 @@
 .full-screen-gif {
 	width: 805px;
 }
+
+.full-screen-gif .bulle {
+	width: 250px;
+	float: right;
+	margin-right: 150px; 
+}
+
+#aide {
+	cursor: pointer;
+}
+
+#img-avatar {
+	width: 70px;
+}
+
+#bulle-aide {
+	height: 70px;
+}

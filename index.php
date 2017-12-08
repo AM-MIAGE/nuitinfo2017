@@ -5,6 +5,9 @@
 	<title>Nom application</title>
 	<link href="css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
+	<script src="./jQuery/jquery-1.10.2.js"></script>
+    <script src="./jQuery/jquery-ui-1.11.4.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </head>
 
 <body>
@@ -17,8 +20,9 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="./php/signUp.php">Tete Avatar</a></li>
+      <ul id="aide" class="nav navbar-nav navbar-right">
+      	<li><img id="bulle-aide" src="./image/mascotte/bulleAide.png"></li>
+        <li><img id="img-avatar" src="./image/mascotte/avatar.gif"></li>
       </ul>
     </div>
   </div>

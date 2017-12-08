@@ -19,7 +19,7 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="./php/signUp.php">Tete Avatar</a></li>
+        <li><img src="./image/mascotte/avatar.png"></li>
       </ul>
     </div>
   </div>

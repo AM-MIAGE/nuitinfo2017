@@ -25,7 +25,8 @@
 </nav>
 
 <section class="center full-screen-gif">
-	<img src="../image/mascotte/walkingDrunk.gif">
+	<img src="../image/mascotte/bulle404.png" class="bulle">
+	<img src="../image/mascotte/walkingDrunk.gif" class="gif-anim">
 </section>
 
 <?php
