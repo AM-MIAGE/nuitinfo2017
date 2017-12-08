@@ -2,10 +2,29 @@
 
 
 <head>
-
-	<meta charset="UTF-8">
-	<title>Sam ou pas Sam ?</title>
+	<meta charset="utf-8">
+	<title>J'ai trop le SAM !</title>
+	<link href="../css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="../css/style.css" rel="stylesheet" media="screen">
 </head>
+
+
+<!-- Menu -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">J'ai trop le SAM !</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="aide" class="nav navbar-nav navbar-right">
+      	<li><img id="bulle-aide" src="../image/mascotte/bulleAide.png"></li>
+        <li><img id="img-avatar" src="../image/mascotte/avatar.gif"></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
 
 <body>
@@ -31,13 +50,18 @@ function addGamer(idJoueur) {
 		$("#addbutton" + idJoueur).hide();
 		$("#deletebutton" + idJoueur).show();
 		$("#form").append("<br>");
-		$("#form").append('<input type="text" id="joueur' + (nbjoueur + 1) + '" autofocus > ');
-		$("#form").append('<input type="button" id="addbuttonjoueur' + (nbjoueur + 1) +  '" onclick=\'addGamer("joueur'  + (nbjoueur + 1) +  '");\' value="Ajouter" />');
-		$("#form").append('<input type="button" id="deletebuttonjoueur' + (nbjoueur + 1) +  '" onclick=\'deleteGamer("joueur' + (nbjoueur + 1) +  '");\' value="Retirer" style="display: none;" />');
+		$("#form").append('<input class="form-control" type="text" id="joueur' + (nbjoueur + 1) + '" autofocus > ');
+		$("#form").append('<input class="btn" type="button" id="addbuttonjoueur' + (nbjoueur + 1) +  '" onclick=\'addGamer("joueur'  + (nbjoueur + 1) +  '");\' value="Ajouter" />');
+		$("#form").append('<input class="btn btn-danger" type="button" id="deletebuttonjoueur' + (nbjoueur + 1) +  '" onclick=\'deleteGamer("joueur' + (nbjoueur + 1) +  '");\' value="Retirer" style="display: none;" />');
 		
 		
 		if(nbjoueur === 2 )
-					$("#form").append('<input type="button" onclick="launchParty();" value="Lancer la partie !"> ');
+					$("#form").append('<input class="btn btn-primary" id="launch" type="button" onclick="launchParty();" value="Lancer la partie !"> ');
+					
+		if(nbjoueur > 2) {
+			$("#launch").remove();
+			$("#form").append('<input style="float:right;" class="btn btn-primary" id="launch" type="button" onclick="launchParty();" value="Lancer la partie !">');	
+		}
 		}
 }
 
@@ -80,16 +104,24 @@ function launchParty() {
 	<h1>To drink or not to drink ?</h1>
 
 	<article>
-
+<div class="container">
 		<form novalidate="true" id="form">
-			<input type="text" id="joueur1" autofocus > 
-			<input type="button" id="addbuttonjoueur1" onclick='addGamer("joueur1");' value="Ajouter" /> 
-			<input type="button" id="deletebuttonjoueur1" onclick='deleteGamer("joueur1");' value="Retirer" style="display: none;" />
+		<div class="row">
+			<input class="form-control" type="text" id="joueur1" autofocus > 
+			</div>
+			<div class="row">
+				<input class="btn" type="button" id="addbuttonjoueur1" onclick='addGamer("joueur1");' value="Ajouter" /> 
+			</div>
+			
+			
+			<div class="row">
+				<input class="btn btn-danger" type="button" id="deletebuttonjoueur1" onclick='deleteGamer("joueur1");' value="Retirer" style="display: none;" />
+			</div>
 
 		
 		</form>
 	
-	
+	</div>
 	</article>
 
 	<div id="wheel" style="width: 300; height: 300;"></div>

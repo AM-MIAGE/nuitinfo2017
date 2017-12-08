@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Nom application</title>
+	<title>J'ai trop le SAM !</title>
 	<link href="css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
 	<script src="./jQuery/jquery-1.10.2.js"></script>
@@ -16,7 +16,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Nom application</a>
+      <a class="navbar-brand" href="#">J'ai trop le SAM !</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -32,17 +32,17 @@
 	<div class="row">
 		<div class="col-md-4">
 			<a href="./php/gestes.php">
-				<img src="image/image-not-found.gif">
+				<img src="./image/Image-not-found.gif">
 			</a>
 		</div>
 		<div class="col-md-4">
 			<a href="./php/appel.php">
-				<img src="image/image-not-found.gif">
+				<img src="./image/Image-not-found.gif">
 			</a>
 		</div>
 		<div class="col-md-4">
 			<a href="./php/game.php">
-				<img src="image/image-not-found.gif">
+				<img src="./image/Image-not-found.gif">
 			</a>
 		</div>
 	</div>
