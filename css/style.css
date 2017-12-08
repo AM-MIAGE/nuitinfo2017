@@ -23,3 +23,22 @@
 #bulle-aide {
 	height: 70px;
 }
+
+#aide-apparition {
+	width: 250px;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 255, .2);
+    background-color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#anim-apparition {
+	height: 300px;
+}
+
+#bulle-apparition {
+	width: 200px;
+}
